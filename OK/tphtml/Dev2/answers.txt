@@ -1,0 +1,60 @@
+Name: Hadil
+Family name: Chaouali 
+
+
+Question 1a:
+
+The source code of a webpage reveals the actual code written by 
+the developer, often containing only the essential content. On the other 
+hand, when inspecting the page, the browser's interpretation is displayed,
+ including the addition of basic HTML tags. In the given example, the source 
+code is limited to the text "My personal page from Telecom ParisTech," while
+ inspecting the page shows the browser's incorporation of fundamental HTML tags.
+
+Question 1b:
+
+-------
+
+Question 1c:
+
+The browser does not present the title directly on the visible page as it is 
+considered meta-information. Instead, the displayed content on the browser 
+corresponds to the body of the HTML, while the information within the head, 
+which includes the title, is meta-information about the page.
+
+Question 1d:
+
+-------
+
+Question 1e:
+
+Omitting a </div> tag may not visibly affect the rendering, although it alters
+ the Document Object Model (DOM) structure. The browser often auto-closes </div>
+ tags to recover from the error, maintaining the rendering consistency.
+
+In contrast, neglecting a </strong> tag can have an immediate impact.
+ The browser tends to prioritize closing </strong> quickly, leading to
+ unintended consequences. When <div> elements are left inside an unclosed
+ </strong> tag, they are encompassed by it, causing them to be displayed 
+larger due to the inherent styling of the <strong> tag.
+
+
+Question 2a:
+
+----
+
+Question 2b:
+
+--Specify an id or a class for every div tag.
+-- Much easier 
+--All styles are in the same place 
+--It is worse if you want to personalize each element differently.
+
+Question 2c:
+
+We should add a link tag on the head tag with the css file path.
+The pros is that this method let the code more organized and not let
+the files get too big.
+
+
+
